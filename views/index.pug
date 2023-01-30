@@ -1,0 +1,58 @@
+//- index.pug
+doctype html
+html
+  head
+    title Raghav Dance Academy
+    style
+      //- it search folder in views
+      include ../static/style.css 
+  body
+    nav#navbar
+        ul
+            div#logo
+                img(src="/static/logo.png")
+                | HDA
+            li #[a(href ="/") Home] 
+            li #[a(href ="/") About]
+            li #[a(href ="/") Services]
+            li #[a(href ="/") Class info]
+            li #[a(href ="/") Contact us]
+    section#introSection 
+        div Welcome to Raghav's Dance Academy 
+        div.small Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our Mission
+        div.card
+            h3 Dance perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/1.png")
+                div.card-content
+                    p This is the Best dance academy of the universe        
+        div.card
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/2.png")
+                div.card-content
+                    p This is the Best dance academy of the universe  
+        div.card
+            h3 Expert Teaching
+            div.card-box
+                div.card-img
+                    img(src="/static/3.png")
+                div.card-content
+                    p This is the Best dance academy of the universe  
+    section#sponsorsSection
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/apple.jpg" , alt="sponsor img", class="spimage")
+            img(src="/static/microsoft.png" , alt="sponsor img", class="spimage")
+            img(src="/static/hp.png" , alt="sponsor img", class="spimage")
+            img(src="/static/skype.png" , alt="sponsor img", class="spimage")
+
+
+    footer#footer 
+        | Copyright &copy 2023 RaghavDanceAcademy.com | All rights reserved
+    script
+      include ../static/index.js

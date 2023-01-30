@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Inconsolata:wght@300&family=Oswald:wght@300&family=Roboto:wght@100;400&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+    font-size: 20px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+}
+#navbar{
+    background-color: aquamarine;
+    padding: 2px 14px;
+    font-family: 'Roboto';
+    background-color: #e35757;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+#navbar li {
+    list-style: none;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    text-decoration: none;
+    color: black;
+    padding: 13px 30px;
+}
+#introSection{
+    background: center/cover no-repeat url("/static/bg.jpg");
+    padding-bottom: 40px;
+    font-family: 'Oswald';
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    opacity: 0.9;
+    /* filter: invert(0.8); */
+    font-weight: bold;
+    height: 425px;
+    background-color:red;
+}
+#introSection .small{
+    font-size:35px;
+    font-family: 'Aboreto';
+}
+#missionSection{
+    height: 326px;
+    display: block;
+    margin: auto;
+    width: 67%;
+}
+#missionSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Aboreto';
+    font-size: 36px;
+}
+.card{
+    border: 2px solid black;
+    background: white;
+    display: inline-block;
+    border-radius: 10px;
+    width: 28%;
+    margin: 23px 20px;
+    height: 210px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px ;
+    margin-top: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 75px ;
+   /* padding: 14px; */
+   margin: 5px 9px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 19px;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color:pink;
+    
+}
+#sponsorsSection h2 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Aboreto';
+    font-size: 36px;
+}
+#sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimage{
+    height:120%;
+    margin: 20px;
+}
+#footer{
+    display: flex;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background-color:black;
+    font-family: 'Roboto';
+    
+}
